@@ -1,0 +1,13 @@
+on:
+  workflow_dispatch:
+
+name: repo-dispatch-test
+
+jobs:
+  test:
+    name: Hello World
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test
+        run: echo "Hello, World!"
+
